@@ -12,4 +12,8 @@ export class GithubNavbarComponent implements OnInit {
   ngOnInit() {
   }
 
+  displayDropdownMenu(event: any, display: boolean) {
+    event.currentTarget.open = display;
+  }
+
 }

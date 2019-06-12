@@ -79,3 +79,9 @@
     margin-left: 5px;
     margin-bottom: 3px;
 }
+
+.dropdown-menu {
+    position: absolute;
+    background: #fff;
+    width: 300px;
+}

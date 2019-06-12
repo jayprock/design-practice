@@ -13,33 +13,75 @@
         <nav>
           <ul class="nav-list flx">
             <li class="margin-right">
-              <details>
+              <details (mouseover)="displayDropdownMenu($event, true)" (mouseout)="displayDropdownMenu($event, false)">
                 <summary>
                   <span>Why Github?</span>
                   <i class="down-arrow"></i>
                 </summary>
+                <div class="dropdown-menu">
+                  <a>Features</a>
+                  <ul>
+                    <li>Code review</li>
+                    <li>Project management</li>
+                    <li>Integrations</li>
+                    <li>Actions</li>
+                    <li>Package registry</li>
+                    <li>Team management</li>
+                    <li>Social coding</li>
+                    <li>Documentation</li>
+                    <li>Code hosting</li>
+                  </ul>
+                </div>
               </details>
             </li>
             <li class="margin-right">
               <a>Enterprise</a>
             </li>
             <li class="margin-right">
-                <details>
+                <details (mouseover)="displayDropdownMenu($event, true)" (mouseout)="displayDropdownMenu($event, false)">
                   <summary>
                     <span>Explore</span>
                     <i class="down-arrow"></i>
                   </summary>
+                  <div class="dropdown-menu">
+                      <a>Features</a>
+                      <ul>
+                        <li>Code review</li>
+                        <li>Project management</li>
+                        <li>Integrations</li>
+                        <li>Actions</li>
+                        <li>Package registry</li>
+                        <li>Team management</li>
+                        <li>Social coding</li>
+                        <li>Documentation</li>
+                        <li>Code hosting</li>
+                      </ul>
+                    </div>
                 </details>
               </li>
               <li class="margin-right">
                   <a>Marketplace</a>
               </li>
               <li class="margin-right">
-                <details>
+                <details (mouseover)="displayDropdownMenu($event, true)" (mouseout)="displayDropdownMenu($event, false)">
                   <summary>
                     <span>Pricing</span>
                     <i class="down-arrow"></i>
                   </summary>
+                  <div class="dropdown-menu">
+                      <a>Features</a>
+                      <ul>
+                        <li>Code review</li>
+                        <li>Project management</li>
+                        <li>Integrations</li>
+                        <li>Actions</li>
+                        <li>Package registry</li>
+                        <li>Team management</li>
+                        <li>Social coding</li>
+                        <li>Documentation</li>
+                        <li>Code hosting</li>
+                      </ul>
+                    </div>
                 </details>
               </li>
           </ul>
