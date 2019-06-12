@@ -22,6 +22,10 @@
     cursor: pointer;
 }
 
+.nav-container li:hover i, .nav-container a:hover i {
+    border-color: hsla(0,0%,100%,.7);
+}
+
 .flx {
     display: flex;
 }
@@ -63,4 +67,15 @@
     border-radius: 3px;
     border: 0;
     background-color: hsla(0,0%,100%,.125);
+}
+
+.down-arrow {
+    border: solid #888;
+    border-width: 0 1px 1px 0;
+    transform: rotate(45deg);
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    margin-left: 5px;
+    margin-bottom: 3px;
 }
