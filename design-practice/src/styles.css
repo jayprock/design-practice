@@ -6,3 +6,19 @@ body {
 details summary::-webkit-details-marker {
     display: none;
 }
+
+.bold {
+    font-weight: bold;
+}
+
+.pad-0 {
+    padding: 0;
+}
+
+.pad-bottom-16 {
+    padding-bottom: 16px;
+}
+
+.pad-top-16 {
+    padding-top: 16px;
+}
