@@ -1,0 +1,11 @@
+<div class="form-container">
+  <h1>Reactive Form Demo</h1>
+  <label>
+    Name:
+    <input type="text" [formControl]="name">
+  </label>
+  <p>
+    Value: {{ name.value }}
+  </p>
+  <button (click)="clearForm()">Clear Form</button>
+</div>

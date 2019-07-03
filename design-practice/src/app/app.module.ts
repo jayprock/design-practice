@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeModule } from './home/home.module';
 import { GithubModule } from './github/github.module';
+import { ReactiveFormModule } from './reactive-form/reactive-form.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { GithubModule } from './github/github.module';
     BrowserModule,
     AppRoutingModule,
     HomeModule,
-    GithubModule
+    GithubModule,
+    ReactiveFormModule
   ],
   providers: [],
   bootstrap: [AppComponent]
