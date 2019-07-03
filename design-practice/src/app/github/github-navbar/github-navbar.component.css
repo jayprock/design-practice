@@ -69,10 +69,12 @@
     padding: 8px 4px;
 }
 
+
 .nav-search-label {
     background-color: hsla(0,0%,100%,.125);
     border-radius: 4px;
     display: flex;
+    width: 240px;
 }
 
 .nav-search {
@@ -80,10 +82,23 @@
     line-height: 20px;
     border: 0;
     background: none;
+    border-radius: 3px;
+    color: inherit;
+}
+
+.nav-search.search-focus {
+    background: #fff;
+    margin: 0;
+    outline: none;
+    color: #24292e;
 }
 
 .nav-search-img {
     margin-right: 8px;
+}
+
+.nav-search-img.search-focus {
+    display: none;
 }
 
 .down-arrow {

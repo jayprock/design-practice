@@ -22,3 +22,7 @@ details summary::-webkit-details-marker {
 .pad-top-16 {
     padding-top: 16px;
 }
+
+.width-100 {
+    width: 100%;
+}
