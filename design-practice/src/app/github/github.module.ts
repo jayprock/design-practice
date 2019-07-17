@@ -4,9 +4,10 @@ import { CommonModule } from '@angular/common';
 import { GithubRoutingModule } from './github-routing.module';
 import { GithubComponent } from './github.component';
 import { GithubNavbarComponent } from './github-navbar/github-navbar.component';
+import { GithubHomepageComponent } from './github-homepage/github-homepage.component';
 
 @NgModule({
-  declarations: [GithubComponent, GithubNavbarComponent],
+  declarations: [GithubComponent, GithubNavbarComponent, GithubHomepageComponent],
   imports: [
     CommonModule,
     GithubRoutingModule
