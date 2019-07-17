@@ -1,0 +1,9 @@
+.banner-container {
+    background: url(https://github.com/images/modules/site/heroes/simple-codelines.svg), #2b3137;
+    background-position: center 10%;
+    background-size: cover;
+}
+
+.banner-content-container {
+    max-width: 1012px;
+}
