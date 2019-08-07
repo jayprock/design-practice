@@ -23,12 +23,17 @@
             <a>Learn more.</a>
           </p>
         </div>
-        <app-github-button 
-          [label]="'Sign up for GitHub'" 
-          [size]="'large'" 
-          [stretch]="true"
-          class="stretch-contents">
-        </app-github-button>
+        <div class="btn-wrapper">
+          <app-github-button 
+            [label]="'Sign up for GitHub'" 
+            [size]="'large'"
+            [stretch]="true" 
+          >
+          </app-github-button>
+        </div>
+        <p class="form-small-text">
+          By clicking “Sign up for GitHub”, you agree to our Terms of Service and Privacy Statement. We’ll occasionally send you account related emails.
+        </p>
       </form>
     </section>
   </div>

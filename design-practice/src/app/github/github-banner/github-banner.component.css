@@ -4,11 +4,12 @@
     background: url(https://github.com/images/modules/site/heroes/simple-codelines.svg), #2b3137;
     background-position: center 10%;
     background-size: cover;
-    box-sizing: border-box;
+    padding: 64px;
 }
 
 .banner-content-container {
     max-width: 1012px;
+    align-items: center;
     font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
 }
 
@@ -16,6 +17,7 @@
     font-size: 64px;
     color: #fff;
     font-weight: 500;
+    margin: 0 0 16px 0;
 }
 
 .banner-content-container  p {
@@ -25,11 +27,19 @@
 }
 
 .banner-col {
+    padding: 0 24px;
+}
+
+.banner-col:first-of-type {
+    width: 58.33333%;
+}
+
+.banner-col:last-of-type {
     width: 50%;
 }
 
 .banner-content-container form {
-    padding: 16px;
+    padding: 24px;
     background-color: #fafafa;
     border-radius: 5px;
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
@@ -69,4 +79,13 @@
    color: #24292e;
    line-height: 1.5em; 
    margin: 5px 0 0 0;
+}
+
+.btn-wrapper {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.btn-wrapper /deep/ button {
+    width: 100%;
 }
