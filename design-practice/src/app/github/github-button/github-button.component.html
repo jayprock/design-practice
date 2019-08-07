@@ -1,0 +1,10 @@
+<button 
+  class="github-btn"
+  [ngClass]="{
+    'bg-green': bgColor === 'green',
+    'bg-blue': bgColor === 'blue',
+    'bg-transparent': bgColor === 'transparent',
+    'btn-md': size === 'medium',
+    'btn-lg': size === 'large',
+    'width-100': stretch
+  }" >{{ label }}</button>

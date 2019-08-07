@@ -1,0 +1,44 @@
+.github-btn {
+    padding: 20px 32px;
+    border-width: 1px;
+    border-radius: 4px;
+    border-style: solid;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.github-btn:hover {
+    cursor: pointer;
+}
+
+.btn-md {
+    padding: 16px 24px;
+    font-size: 14px;
+}
+
+.btn-lg {
+    padding: 20px 32px;
+    font-size: 16px;
+}
+
+.bg-green {
+    background-color: #2ebc4f;
+    border-color: #2ebc4f;
+    color: #fff;
+}
+
+.bg-green:hover {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.bg-blue {
+    background-color: #1074e7;
+    border-color: #1074e7;
+    color: #fff;
+}
+
+.bg-blue {
+    background-color: #0366d6;
+    border-color: #0366d6;
+}
