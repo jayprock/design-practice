@@ -1,0 +1,46 @@
+section {
+    background: url("https://github.githubassets.com/images/modules/site/patterns/dots-large.svg");
+    background-position: center 10%;
+    background-color: #fff;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+
+.content-container {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    text-align: center;
+    max-width: 1012px;
+    padding: 40px;
+}
+
+.content-container h1 {
+    font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-weight: 500;
+    font-size: 32px;
+    margin: 0;
+}
+
+.content-container p {
+    color: #586069;
+}
+
+.button-container {
+    margin-bottom: 10px;
+}
+
+.content-container a {
+    color: #0366d6;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.content-container a>span {
+    display: inline-block;
+    transition: transform 0.2s;
+}
+
+.content-container a:hover span {
+    transform: translateX(5px);
+}
