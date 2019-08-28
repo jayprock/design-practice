@@ -1,4 +1,13 @@
-.example-box {
+.drag-container {
+    height: 400px;
+    width: 800px;
+    border: 1px dashed #bbb;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+}
+
+.drag-box {
     height: 100px;
     width: 100px;
     text-align: center;
@@ -6,3 +15,46 @@
     background: rgb(216, 132, 132);
     box-shadow: 1px 3px 8px #000;
 }
+
+.drag-list {
+    padding: 0;
+    list-style-type: none;
+    border: 1px solid #aaa;
+    width: 100px;
+}
+
+.drag-list__item {
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #aaa;
+}
+
+.drag-list .drag-list__item:last-child {
+    border-bottom: none;
+}
+
+.list-container {
+    display: inline-block;
+    height: 300px;
+    padding-right: 3rem;
+}
+
+.cdk-drag-preview {
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+                0 8px 10px 1px rgba(0, 0, 0, 0.14),
+                0 3px 14px 2px rgba(0, 0, 0, 0.12);
+    list-style-type: none;
+  }
+  
+  .cdk-drag-placeholder {
+    opacity: 0;
+  }
+  
+  .cdk-drag-animating {
+    transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+  }
+  
+  .drag-list.cdk-drop-list-dragging .drag-list__item:not(.cdk-drag-placeholder) {
+    transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+  }
