@@ -1,0 +1,8 @@
+.example-box {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+    background: rgb(216, 132, 132);
+    box-shadow: 1px 3px 8px #000;
+}
