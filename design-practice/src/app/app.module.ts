@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeModule } from './home/home.module';
 import { GithubModule } from './github/github.module';
 import { ReactiveFormModule } from './reactive-form/reactive-form.module';
+import { DragAndDropModule } from './drag-and-drop/drag-and-drop.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ReactiveFormModule } from './reactive-form/reactive-form.module';
     AppRoutingModule,
     HomeModule,
     GithubModule,
-    ReactiveFormModule
+    ReactiveFormModule,
+    DragAndDropModule
   ],
   providers: [],
   bootstrap: [AppComponent]
